@@ -21,7 +21,7 @@ public class Abstract_Class {
     public void setDriver() throws IOException, InterruptedException {
         driver = skip2.defineTheDriver();
         //set the path to the report that I want to use
-        reports = new ExtentReports("src/main/java/HTML/Express.html");
+        reports = new ExtentReports("src/main/java/HTML/FedEx.html");
     }//end of before suite
 
     //before method will start the log for your report and capture the test Name
